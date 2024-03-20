@@ -1,0 +1,128 @@
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  body{
+    background-color: #f8c1eb45;
+  }
+  
+  h1, h3, p{
+    margin: 0;
+  }
+  .title{
+    margin-bottom: 16px;
+  }
+ .customizer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .umbrella-container {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+  }
+  .customizer-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-container {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+  
+  .color-swatches {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 8px;
+  }
+  
+  .swatch {
+    width:16px;
+    height:16px;
+    cursor: pointer;
+    border-radius: 100%;
+    
+  }
+  
+  .pink {
+    background-color: #fc03be;
+    border: 2px solid #f798df;
+    
+  }
+  
+  .blue {
+    background-color: #03c6fc;
+    border: 2px solid #9fe6fa;
+    
+  }
+  
+  .yellow {
+    background-color: #fcdb03;
+    border: 2px solid #fff3a2;
+    
+  }
+  
+  .upload-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #03c6fc;
+    padding: 4px 12px;
+    font-size: 16px;
+  }
+  #logo-upload {
+    display: none;
+  }
+ .upload-label{
+    display: flex;
+    width: calc(65%);
+    justify-content: space-between;
+  }
+  #upload-icon {
+    height: 16px;
+  }
+  #logo-img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .cross_icon{
+    height: 16px;
+    visibility: hidden;
+  }
+  #umbrella-img{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;  
+  }
+  #loader{
+    width: 150px;
+    height: 150px;
+    animation: spin 4s linear infinite;
+    fill:#fc03be
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

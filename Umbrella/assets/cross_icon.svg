@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  
+>
+  <defs>
+    <path
+      id="a"
+      d="M12 10.586l4.95-4.95a1 1 0 0 1 1.415 1.415L13.415 12l4.95 4.95a1 1 0 1 1-1.415 1.415L12 13.415l-4.95 4.95a1 1 0 1 1-1.415-1.415L10.585 12 5.635 7.05a1 1 0 1 1 1.415-1.415L12 10.585z"
+    ></path>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"></use>
+    </mask>
+    <use fill="white" fill-rule="nonzero" xlink:href="#a"></use>
+    <g fill="white" mask="url(#b)">
+      <path d="M0 0H24V24H0z"></path>
+    </g>
+  </g>
+</svg>
+
